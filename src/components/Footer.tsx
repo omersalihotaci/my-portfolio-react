@@ -49,7 +49,7 @@ function Footer() {
             <p className="text-center text-gray-400 text-sm mt-6">
                 Made with ❤️ by Ömer Salih Otacı. Check out the{" "}
                 <a
-                    href="https://github.com/https://github.com/omersalihotaci/my-portfolio-react"
+                    href="https://github.com/omersalihotaci/my-portfolio-react"
                     className="underline hover:text-blue-500"
                 >
                     source code
