@@ -12,7 +12,7 @@ function Projects() {
         {
             url: "/portfolio.jpg",
             title: "My Portfolio",
-            github: "https://github.com/omersalihotaci",
+            github: "https://github.com/omersalihotaci/my-portfolio-react",
         },
     ];
     return (
