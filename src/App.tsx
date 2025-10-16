@@ -12,14 +12,27 @@ function App() {
   
 
   return (
-    <div className="min-h-screen container mx-auto  max-w-7xl px-4 md:px-40">
-      <ToastContainer />
-      <Navbar />
-      <Home />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
+      <div className="min-h-screen container mx-auto max-w-7xl px-4 md:px-40">
+          <ToastContainer />
+          <Navbar />
+
+          <section id="home">
+              <Home />
+          </section>
+
+          <section id="about-me">
+              <About />
+          </section>
+
+          <section id="projects">
+              <Projects />
+          </section>
+
+          <section id="contact">
+              <Contact />
+          </section>
+
+          <Footer />
       </div>
   );
 }

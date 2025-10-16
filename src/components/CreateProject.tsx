@@ -47,7 +47,7 @@ function CreateProject(props: ProjectCard) {
                 <div className="absolute inset-0 bg-gray-400 bg-opacity-70 flex flex-col items-center justify-center transition-opacity duration-300 z-10 ">
                     <div className="p-4 text-white text-center">
                         <h3 className="text-xl font-bold mb-2">
-                            Simple-React-Ecommerce
+                            {title}
                         </h3>
                     </div>
                     <a

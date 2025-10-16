@@ -30,7 +30,7 @@ function Navbar() {
                         <ul className="flex space-x-10">
                             <li>
                                 <a
-                                    href="#"
+                                    href="#home"
                                     className="text-xl font-bold text-white hover:text-indigo-400 active:text-indigo-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 focus-visible:ring-offset-black transition-colors"
                                 >
                                     Home
@@ -38,7 +38,7 @@ function Navbar() {
                             </li>
                             <li>
                                 <a
-                                    href="#"
+                                    href="#about-me"
                                     className="text-xl font-bold text-white hover:text-indigo-400 active:text-indigo-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 focus-visible:ring-offset-black transition-colors"
                                 >
                                     About Me
@@ -46,7 +46,7 @@ function Navbar() {
                             </li>
                             <li>
                                 <a
-                                    href="#"
+                                    href="#projects"
                                     className="text-xl font-bold text-white hover:text-indigo-400 active:text-indigo-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 focus-visible:ring-offset-black transition-colors"
                                 >
                                     Projects
@@ -54,7 +54,7 @@ function Navbar() {
                             </li>
                             <li>
                                 <a
-                                    href="#"
+                                    href="#contact"
                                     className="text-xl font-bold text-white hover:text-indigo-400 active:text-indigo-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 focus-visible:ring-offset-black transition-colors"
                                 >
                                     Contact
@@ -88,7 +88,7 @@ function Navbar() {
                         <ul className="flex flex-col items-center gap-8 list-none">
                             <li>
                                 <a
-                                    href="#"
+                                    href="#home"
                                     onClick={() => setIsOpen(false)}
                                     className="block font-bold text-white hover:text-indigo-300 active:text-indigo-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-black transition-colors"
                                 >
@@ -97,7 +97,7 @@ function Navbar() {
                             </li>
                             <li>
                                 <a
-                                    href="#"
+                                    href="#about-me"
                                     onClick={() => setIsOpen(false)}
                                     className="block font-bold text-white hover:text-indigo-300 active:text-indigo-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-black transition-colors"
                                 >
@@ -106,7 +106,7 @@ function Navbar() {
                             </li>
                             <li>
                                 <a
-                                    href="#"
+                                    href="#projects"
                                     onClick={() => setIsOpen(false)}
                                     className="block font-bold text-white hover:text-indigo-300 active:text-indigo-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-black transition-colors"
                                 >
@@ -115,7 +115,7 @@ function Navbar() {
                             </li>
                             <li>
                                 <a
-                                    href="#"
+                                    href="#contact"
                                     onClick={() => setIsOpen(false)}
                                     className="block font-bold text-white hover:text-indigo-300 active:text-indigo-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-black transition-colors"
                                 >
